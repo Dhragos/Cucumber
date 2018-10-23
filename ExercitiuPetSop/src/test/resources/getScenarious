@@ -1,0 +1,10 @@
+Feature:
+  Scenario: Check if Specialities title exists
+    Given I have acces to go to HomePage
+    When  I click Specialities menu
+    Then  Validate if Specialities title exists
+
+    Scenario: Add a new veterinarian
+      Given User has acces to go to HomePage
+      When User clicks on veterinarians menu
+      Then User adds a new veterinarian
